@@ -7,7 +7,7 @@ import (
 )
 
 func execute(){
-	out, err := exec.Command("/bin/sh", "-c", "ssh non-prod pwd").Output()
+	out, err := exec.Command("/bin/sh", "-c", "ssh non-prod /home/vishant/golang/practice").Output()
 	if err != nil {
 		fmt.Printf("%s", err)
 	}

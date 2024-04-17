@@ -1,5 +1,6 @@
 name: create-release-example
 on: push
+jobs:
   build:
     name: Create Release
     runs-on: ubuntu-latest
